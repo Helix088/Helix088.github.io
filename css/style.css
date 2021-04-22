@@ -22,3 +22,7 @@ header img {
     width: 200px;
     height: auto;
 }
+
+main h2 {
+    border-bottom: 1px solid black;
+}
