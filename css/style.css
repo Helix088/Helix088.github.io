@@ -33,8 +33,3 @@ header h1 {
 main h2 {
     border-bottom: 1px solid black;
 }
-
-footer a:focus {
-    color: black;
-    outline: none;
-}
