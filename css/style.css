@@ -40,8 +40,8 @@ main a {
     text-decoration: none;
 }
 
-footer a {
-    text-decoration: none;
+footer a:link {
+    color: white;
 }
 
 footer a:visited {
