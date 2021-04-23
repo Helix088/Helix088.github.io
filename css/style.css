@@ -34,7 +34,7 @@ main h2 {
     border-bottom: 1px solid black;
 }
 
-footer a:active {
+footer a:focus {
     color: black;
     outline: none;
 }
