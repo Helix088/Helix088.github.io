@@ -14,7 +14,6 @@ footer {
 header,
 footer {
     border: 1px solid #bbb;
-    border-radius: 8px;
     padding: 1.5rem;
     background-color: dodgerblue;
     text-align: center;
@@ -22,24 +21,23 @@ footer {
 }
 
 header img {
-    float: right;
     width: 200px;
     height: auto;
-    box-shadow: 0 0 20px black;
-    border-radius: 0 10px 0 0;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Alfa Slab One", cursive;
 }
 
 main h2 {
     border-bottom: 1px solid black;
+    font-size: 1rem;
 }
 
-main a {
+main li {
     text-decoration: none;
+    font-size: 0.7rem;
 }
 
 footer a:link {
@@ -55,5 +53,5 @@ footer p {
 }
 
 footer {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
