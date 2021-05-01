@@ -49,6 +49,10 @@ footer {
     padding: 0.4em;
 }
 
-footer a:visited {
+footer a {
     color: yellow;
+}
+
+footer a:visited {
+    color: salmon;
 }
