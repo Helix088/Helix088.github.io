@@ -1,0 +1,25 @@
+@media only screen and (min-width: 40em) {
+    header,
+    main,
+    footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    header {
+        font-size: 2rem;
+        border-radius: 20px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    footer {
+        border-radius: 20px;
+    }
+}
