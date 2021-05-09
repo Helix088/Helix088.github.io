@@ -1,0 +1,154 @@
+body {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    background-color: #cfedf7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #3d96fc;
+}
+
+header,
+footer {
+    color: #ffffff;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+nav {
+    background-color: #1580fa;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+a:hover {
+    background-color: #414141;
+    padding: 1rem;
+}
+
+a:active {
+    color: #ffff00;
+}
+
+footer {
+    text-align: center;
+    background-color: #3d96fc;
+    padding: 1rem;
+}
+
+footer a:visited {
+    color: #ffff00;
+}
+
+footer a:hover {
+    padding: 0.5rem;
+}
+
+footer p {
+    color: #ffff00;
+}
+
+.content1 h2 {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+}
+
+.content1 main p {
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.content1 main h3 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.content1 main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content2 main {
+    padding: 2rem;
+}
+
+.content2 main img {
+    max-width: 200px;
+    height: auto;
+}
+
+.colors {
+    max-width: auto;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.color1 {
+    background-color: #3d96fc;
+    color: #ffffff;
+}
+
+.color2 {
+    background-color: #1580fa;
+    color: #ffffff;
+}
+
+.color3 {
+    background-color: #414141;
+    color: #ffffff;
+}
+
+.color4 {
+    background-color: #cfedf7;
+}
+
+.color5 {
+    background-color: #ffff00;
+}
+
+.color6 {
+    background-color: #ffffff;
+}
+
+.color7 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.content4 main {
+    padding: 1rem;
+}
