@@ -5,6 +5,9 @@
     h1 {
         font-size: 4rem;
     }
+    .motto {
+        font-size: 1.5rem;
+    }
     h2 {
         font-size: 3rem;
     }
@@ -12,9 +15,10 @@
         font-size: 1.8rem;
     }
     nav a {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     footer {
+        font-size: 1.5rem;
         max-width: 1000px;
     }
 }
