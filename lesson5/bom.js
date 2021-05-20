@@ -15,9 +15,9 @@ button.addEventListener("click", function() {
     listBtn.textContent = "❌";
     list.appendChild(listItem);
 
-    listBtn.onclick = function(e) {
+    listBtn.addEventListener("click", function(e) {
         list.removeChild(listItem);
-    };
+    });
 
     input.focus();
 });

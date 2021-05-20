@@ -28,8 +28,18 @@ button {
     padding: 0.5rem;
 }
 
+input {
+    background-color: #dddddd;
+}
+
+button {
+    background-color: #a1a1a1a1;
+    color: rgb(247, 255, 136);
+}
+
 label {
     font-size: 0.8rem;
+    color: white;
 }
 
 .listcontainer {
