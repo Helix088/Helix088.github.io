@@ -1,4 +1,8 @@
 @media only screen and (min-width: 32.5rem) {
+    aside {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
     nav,
     table {
         max-width: 100%;
@@ -49,6 +53,7 @@
         height: 300px;
     }
     .summary {
+        position: absolute;
         top: 4rem;
         left: 4rem;
     }

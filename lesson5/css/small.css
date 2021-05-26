@@ -5,6 +5,18 @@ body {
     margin: 0 auto;
 }
 
+aside {
+    display: none;
+}
+
+aside {
+    background-color: #ffffa1;
+    max-width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -81,6 +93,10 @@ nav {
     background-color: #414141;
 }
 
+.navagation .current:hover {
+    background-color: #666565;
+}
+
 .responsive li {
     display: block;
 }
@@ -101,9 +117,6 @@ main h2 {
 }
 
 .summary {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
     line-height: 0.125rem;
     background: radial-gradient(#1580fa, #3d96fc);
     border: 1px solid #cfedf7;
