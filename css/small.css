@@ -4,14 +4,6 @@ body {
 }
 
 header,
-main,
-footer {
-    max-width: 760px;
-    margin: 0 auto;
-    font-family: "Exo 2", sans-serif;
-}
-
-header,
 footer {
     border: 1px solid #bbb;
     padding: 1.5rem;
@@ -28,6 +20,13 @@ header img {
 header h1 {
     font-size: 2rem;
     font-family: "Alfa Slab One", cursive;
+}
+
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: "Exo 2", sans-serif;
 }
 
 main h2 {
