@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progressive Loading (Images)</title>
+    <meta name="description" content="Pictures made Lazy." />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/lazyload.css" />
+</head>
+
+<body>
+    <h1>(Progressive) Lazy Images</h1>
+    <main>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/city.jpg" alt="Busy city street from a balcany" />
+        </picture>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/forest.jpg" alt="Top view of a Forest" />
+        </picture>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/kitten.jpg" alt="Kitten yawning" />
+        </picture>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/rock-in-ocean.jpg" alt="Two rocks in the ocean" />
+        </picture>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/snowy-mount.jpg" alt="Snowy Mountains" />
+        </picture>
+        <picture>
+            <img src="images/place-holder.png" data-src="images/stary-night.jpg" alt="Stary night in forest" />
+        </picture>
+    </main>
+    <script defer src="js/lazyload.js"></script>
+</body>
+
+</html>
