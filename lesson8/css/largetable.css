@@ -1,0 +1,27 @@
+@media only screen and (min-width: 80rem) {
+    h1 {
+        font-size: 5rem;
+    }
+    table {
+        width: 1000px;
+        height: auto;
+    }
+    thead,
+    th,
+    td,
+    tfoot {
+        padding: 2rem;
+    }
+    thead td {
+        font-size: 4rem;
+    }
+    td {
+        font-size: 1.5rem;
+    }
+    th {
+        font-size: 2rem;
+    }
+    tfoot td {
+        font-size: 1.2rem;
+    }
+}
