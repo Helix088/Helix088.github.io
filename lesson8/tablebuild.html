@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/smalltable.css" />
     <link rel="stylesheet" href="css/medtable.css" />
     <link rel="stylesheet" href="css/largetable.css" />
-
 </head>
 
 <body>
@@ -23,12 +22,12 @@
     </header>
     <main>
         <table>
+            <thead>
+                <tr>
+                    <td colspan="3">ACME Wildwest</td>
+                </tr>
+            </thead>
             <tbody>
-                <thead>
-                    <tr>
-                        <td colspan="3">ACME Wildwest</td>
-                    </tr>
-                </thead>
                 <tr>
                     <th>Period</th>
                     <th>Sales</th>
@@ -63,12 +62,12 @@
                     <td>$6,820</td>
                     <td>$7,500</td>
                 </tr>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">Compiled 12.20.2020 by bRauls</td>
-                    </tr>
-                </tfoot>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Compiled 12.20.2020 by bRauls</td>
+                </tr>
+            </tfoot>
         </table>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
