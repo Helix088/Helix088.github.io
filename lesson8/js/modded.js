@@ -19,3 +19,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+function adjustSeverity(severity) {
+    document.getElementById("severityvalue").innerHTML = severity;
+}
