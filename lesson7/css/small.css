@@ -138,43 +138,6 @@ figcaption {
     margin-bottom: 3rem;
 }
 
-.fa {
-    padding: 0.6rem;
-    width: 0.6rem;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.5;
-}
-
-.fa-facebook {
-    background-color: #3b5998;
-    color: white;
-}
-
-.fa-pinterest {
-    background-color: #cb2027;
-    color: white;
-}
-
-.fa-twitter {
-    background-color: #55acee;
-    color: white;
-}
-
-.fa-instagram {
-    background-color: #125688;
-    color: white;
-}
-
-.location {
-    width: 0%;
-}
-
 a:hover {
     background-color: #414141;
     padding: 1rem;
