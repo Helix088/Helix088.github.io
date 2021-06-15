@@ -3,6 +3,7 @@ body {
     font-family: "Oswald", sans-serif;
     background-color: #cfedf7;
     margin: 0 auto;
+    text-align: center;
 }
 
 aside {
@@ -36,17 +37,6 @@ main,
 footer {
     max-width: 100%;
     margin: 0 auto;
-}
-
-picture {
-    display: inline;
-    text-align: center;
-}
-
-picture img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #bbb;
 }
 
 .logo {
@@ -112,75 +102,34 @@ nav {
     display: block;
 }
 
-main h2 {
+main {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
-.herodiv {
-    margin: 10px auto;
-    position: relative;
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    margin: auto;
 }
 
-.summary {
-    line-height: 0.125rem;
-    background: radial-gradient(#1580fa, #3d96fc);
-    border: 1px solid #cfedf7;
-    padding: 0.5rem;
-    box-shadow: 0 0 2rem #777;
-    opacity: 0.8;
-    color: #ffffff;
+img {
+    max-width: 300px;
+    max-height: 400px;
 }
 
-.details {
-    padding: 0.1rem;
-}
-
-h3 {
-    font-size: 0.9rem;
-}
-
-div {
-    font-size: 0.7rem;
-}
-
-.five {
-    display: none;
-}
-
-.article {
-    background-color: #83bcfd;
-    padding: 3rem;
-    border: 1px solid black;
-    margin-bottom: 1rem;
-    color: #ffffff;
-}
-
-.author {
-    font-style: italic;
-    color: #414141;
-}
-
-.contact {
-    background-color: #3592fc;
+figcaption {
+    background-color: rgba(255, 255, 255, 0.89);
     padding: 1rem;
-    line-height: 10px;
-    color: #ffffff;
-}
-
-.storm-trooper {
-    width: 100%;
-    height: auto;
-    box-shadow: 0 0 2rem #777;
-}
-
-.contact p {
-    word-wrap: normal;
-}
-
-.con-info {
     text-align: center;
-    padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .fa {
@@ -234,6 +183,7 @@ footer {
     background-color: #1580fa;
     padding: 0.1rem;
     font-size: 1rem;
+    margin-top: 2rem;
 }
 
 .date {
