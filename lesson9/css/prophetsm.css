@@ -2,8 +2,6 @@
     main div {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-content: center;
-        justify-content: center;
     }
     section {
         width: 380px;
