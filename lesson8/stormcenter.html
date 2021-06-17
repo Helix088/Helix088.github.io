@@ -47,7 +47,11 @@
             <fieldset>
                 <legend>Reportee Information</legend>
                 <label class="top">Full Name*
-            <input type="text" name="fullname" required pattern="[A-Za-z].{5,}"
+            <input
+              type="text"
+              name="fullname"
+              required
+              pattern="[A-Za-z\s]{5,}"
           /></label>
                 <label class="top">Email*
             <input
@@ -127,7 +131,7 @@
           <label class="sbs"
             ><input type="radio" name="danger" value="no" />No</label
           >
-          <label class="top">Additional Information or Comments</label>
+          <label for="" class="top">Additional Information or Comments</label>
                 <textarea name="addinfocom" id="infocom" cols="37" rows="10"></textarea>
             </fieldset>
             <input type="submit" value="Report My Storm" class="submitBtn" />
