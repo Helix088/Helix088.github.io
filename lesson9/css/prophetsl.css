@@ -1,5 +1,5 @@
 @media only screen and (min-width: 80rem) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
+    main div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
