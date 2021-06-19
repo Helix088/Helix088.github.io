@@ -7,7 +7,6 @@ fetch(requestURL)
     })
     .then(function(jsonObject) {
         const prophets = jsonObject["prophets"];
-        console.table(jsonObject);
         prophets.forEach((prophet) => {
             let card = document.createElement("section");
             let h2 = document.createElement("h2");

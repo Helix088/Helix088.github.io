@@ -1,0 +1,98 @@
+@media only screen and (min-width: 32.5rem) {
+    aside {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+    nav,
+    table {
+        max-width: 100%;
+    }
+    header {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        padding: 1.5rem;
+    }
+    .logo {
+        width: 150px;
+    }
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: 1.1rem;
+        margin-left: 17px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    main h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .navagation {
+        display: flex;
+    }
+    .navagation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navagation a {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .navagation li:first-child {
+        display: none;
+    }
+    div {
+        display: block;
+        margin: 0 auto;
+        padding: 2rem;
+        font-size: 1rem;
+    }
+    .summary {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 4rem;
+        left: 4rem;
+    }
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+    .cards section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    .cards section:nth-child(odd) text {
+        grid-column: 2 / 2;
+        grid-row: 1;
+    }
+    .cards section img {
+        align-self: end;
+    }
+    .contact {
+        display: inline-flex;
+        align-content: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 15rem;
+    }
+    .con-info h3 {
+        line-height: 2rem;
+    }
+    .fa {
+        padding: 1rem;
+        width: 1rem;
+    }
+    .location {
+        width: 45%;
+        height: auto;
+    }
+    footer {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+}
