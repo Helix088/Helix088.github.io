@@ -17,8 +17,19 @@
     nav a {
         font-size: 1.5rem;
     }
+    .summary {
+        width: 250px;
+        height: auto;
+    }
+    .cards section {
+        display: block;
+    }
     .cards {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    }
+    .cards section:nth-child(even) {
+        grid-column: 2 / 3;
     }
     .location {
         width: 40%;

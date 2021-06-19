@@ -3,6 +3,7 @@ body {
     font-family: "Oswald", sans-serif;
     background-color: #cfedf7;
     margin: 0 auto;
+    letter-spacing: 0.1rem;
 }
 
 aside {
@@ -157,6 +158,7 @@ div {
     background-color: #1580fa;
     text-align: center;
     max-width: 600px;
+    color: white;
 }
 
 .cards section img {
@@ -223,7 +225,7 @@ footer {
     text-align: center;
     background-color: #1580fa;
     padding: 0.1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .wire {

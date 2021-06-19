@@ -17,10 +17,10 @@ fetch(requestURL)
         three.forEach((town) => {
             let card = document.createElement("section");
             let h2 = document.createElement("h2");
-            let motto = document.createElement("h4");
-            let year = document.createElement("h4");
-            let pop = document.createElement("h4");
-            let rain = document.createElement("h4");
+            let motto = document.createElement("p");
+            let year = document.createElement("p");
+            let pop = document.createElement("p");
+            let rain = document.createElement("p");
             let image = document.createElement("img");
 
             h2.textContent = town.name;
