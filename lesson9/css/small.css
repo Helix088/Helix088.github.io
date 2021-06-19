@@ -227,18 +227,12 @@ footer {
 }
 
 .wire {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     color: #ffff00;
 }
 
 .wire:hover {
     padding: 0;
-}
-
-.content_area ul li:before {
-    display: none;
 }
 
 .date {
