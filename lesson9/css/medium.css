@@ -59,7 +59,7 @@
     .cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-row: repeat(autofit minmax(30px, 1fr));
+        grid-row: repeat(autofit, minmax(30px, 1fr));
         max-width: 100%;
     }
     .cards section h2 {
