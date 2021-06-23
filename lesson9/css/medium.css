@@ -27,7 +27,10 @@
         font-size: 2rem;
     }
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+    h5 {
+        line-height: 1rem;
     }
     .navagation {
         display: flex;
