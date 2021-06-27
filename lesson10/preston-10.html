@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,133 +8,185 @@
     <meta name="description" content="Community page for Preston, Idaho." />
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script defer src="js/banner.js"></script>
     <script defer src="js/forecast2.js"></script>
     <script defer src="js/forecast.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <aside class="banner">
-        Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city park pavilion.
+      Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city
+      park pavilion.
     </aside>
     <header>
-        <img class="logo" src="images/weather_logo.png" alt="Logo of Weather Website" />
-        <section class="headings">
-            <h1>Cleaver with the Weather</h1>
-            <p class="motto">
-                "The weather may be a mystery, but we're cleaver enough to figure it out."
-            </p>
-        </section>
+      <img
+        class="logo"
+        src="images/weather_logo.png"
+        alt="Logo of Weather Website"
+      />
+      <section class="headings">
+        <h1>Cleaver with the Weather</h1>
+        <p class="motto">
+          "The weather may be a mystery, but we're cleaver enough to figure it
+          out."
+        </p>
+      </section>
     </header>
     <nav>
-        <ul class="navagation">
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="/lesson9/index.html">Home</a></li>
-            <li><a class="current" href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
-            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
-        </ul>
+      <ul class="navagation">
+        <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <li><a href="/lesson9/index.html">Home</a></li>
+        <li><a class="current" href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
-        <div class="herodiv">
-            <picture>
-                <source srcset="images/idaho1000w.jpg" media="(min-width: 1000px)" />
-                <source srcset="images/idaho800w.jpg" media="(min-width: 800px)" />
-                <source srcset="images/idaho600w.jpg" media="(min-width: 600px)" />
-                <source srcset="images/idaho400w.jpg" media="(min-width: 400px)" />
-                <img src="images/idaho300w.jpg" alt="Lake and mountain landscape." />
-            </picture>
-            <section class="summary">
-                <h3>Weather Summary</h3>
-                <div class="details">
-                    <p class="label">Currently: <span id="currently"></span></p>
-                    <p class="label">
-                        Temperature: <span id="temperature"></span>&deg; F
-                    </p>
-                    <p class="label">Humidity: <span id="humidity"></span>%</p>
-                    <p class="label">Wind Speed: <span id="speed"></span> mph</p>
-                    <p class="label">Wind Chill: <span id="windchill"></span>&deg; F</p>
-                </div>
-            </section>
-        </div>
-        <div class="five">
-            <h3>5 Day Forecast</h3>
-            <div class="fives-box">
-                <div class="fives">
-                    <p>
-                        <span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; F
-                    </p>
-                    <p><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>
-                </div>
-                <div class="fives">
-                    <p>
-                        <span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; F
-                    </p>
-                    <p><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>
-                </div>
-                <div class="fives">
-                    <p>
-                        <span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; F
-                    </p>
-                    <p><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>
-                </div>
-                <div class="fives">
-                    <p>
-                        <span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; F
-                    </p>
-                    <p><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>
-                </div>
-                <div class="fives">
-                    <p>
-                        <span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; F
-                    </p>
-                    <p><span id="imagesrc"></span><img src="" alt="" id="icon" /></p>
-                </div>
-            </div>
-        </div>
-        <div class="article">
-            <img class="storm-trooper" src="images/storm-troopers.jpg" alt="People dressed as storm troopers" />
-            <h3>Star Wars Day</h3>
-            <p class="author">By: Chase Patterson</p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolorem obcaecati distinctio beatae cumque fugit necessitatibus reprehenderit, alias libero expedita in consectetur aut id vel a dolorum unde eius nostrum. Maxime debitis, qui consequatur
-                nostrum aliquid fugit ipsa ullam itaque, omnis velit odio laboriosam amet porro dolores minima provident exercitationem? Sequi, distinctio incidunt vero dolorum id rem minus error repudiandae? Neque a, quis possimus aspernatur cum iste
-                distinctio dignissimos architecto perferendis quod fuga soluta assumenda, quidem dicta ea. Ratione omnis commodi culpa iste in distinctio necessitatibus iure enim cupiditate dignissimos! Adipisci doloremque illum, accusamus quod sapiente
-                inventore quaerat vitae minima voluptatibus dolores dolore ex odio. Nemo quam perspiciatis accusantium mollitia, tempora eos! Reiciendis ut deleniti, magni quod nam quaerat? Illo. Incidunt, necessitatibus soluta, quisquam totam laborum,
-                accusantium optio eligendi hic sit quos distinctio similique. Velit esse iure ipsa dolorum et ratione commodi laborum suscipit fugiat ex facere ab, recusandae quasi.
+      <h2>Preston Idaho</h2>
+      <div class="herodiv">
+        <picture>
+          <source srcset="images/idaho1000w.jpg" media="(min-width: 1000px)" />
+          <source srcset="images/idaho800w.jpg" media="(min-width: 800px)" />
+          <source srcset="images/idaho600w.jpg" media="(min-width: 600px)" />
+          <source srcset="images/idaho400w.jpg" media="(min-width: 400px)" />
+          <img src="images/idaho300w.jpg" alt="Lake and mountain landscape." />
+        </picture>
+        <section class="summary">
+          <h3>Weather Summary</h3>
+          <div class="details">
+            <p class="label">Currently: <span id="currently"></span></p>
+            <p class="label">
+              Temperature: <span id="temperature"></span>&deg; F
             </p>
+            <p class="label">Humidity: <span id="humidity"></span>%</p>
+            <p class="label">Wind Speed: <span id="speed"></span> mph</p>
+            <p class="label">Wind Chill: <span id="windchill"></span>&deg; F</p>
+          </div>
+        </section>
+      </div>
+      <div class="five">
+        <h3>5 Day Forecast</h3>
+        <div class="fives-box">
+          <div class="fives">
+            <p>
+              <span id="dayofweek1"></span> : <span id="forecast1"></span>&deg;
+              F
+            </p>
+            <p><span id="imagesrc1"></span><img src="" alt="" id="icon" /></p>
+          </div>
+          <div class="fives">
+            <p>
+              <span id="dayofweek2"></span> : <span id="forecast2"></span>&deg;
+              F
+            </p>
+            <p><span id="imagesrc2"></span><img src="" alt="" id="icon" /></p>
+          </div>
+          <div class="fives">
+            <p>
+              <span id="dayofweek3"></span> : <span id="forecast3"></span>&deg;
+              F
+            </p>
+            <p><span id="imagesrc3"></span><img src="" alt="" id="icon" /></p>
+          </div>
+          <div class="fives">
+            <p>
+              <span id="dayofweek4"></span> : <span id="forecast4"></span>&deg;
+              F
+            </p>
+            <p><span id="imagesrc4"></span><img src="" alt="" id="icon" /></p>
+          </div>
+          <div class="fives">
+            <p>
+              <span id="dayofweek5"></span> : <span id="forecast5"></span>&deg;
+              F
+            </p>
+            <p><span id="imagesrc5"></span><img src="" alt="" id="icon" /></p>
+          </div>
         </div>
-        <div class="contact">
-            <section class="con-info">
-                <h3>Cleaver with the Weather</h3>
-                <p>575 W 2nd N,</p>
-                <p>Preston, ID 83263</p>
-                <p>208-654-6956</p>
-                <p>www.seidahoinfo.com</p>
-                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://www.pinterest.com/" class="fa fa-pinterest" target="_blank"></a>
-                <a href="https://twitter.com/?lang=en" class="fa fa-twitter" target="_blank"></a>
-                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
-            </section>
-            <img class="location" src="images/prest-loc.png" alt="Map loation for Preston, ID" />
-        </div>
+      </div>
+      <div class="article">
+        <img
+          class="storm-trooper"
+          src="images/storm-troopers.jpg"
+          alt="People dressed as storm troopers"
+        />
+        <h3>Star Wars Day</h3>
+        <p class="author">By: Chase Patterson</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+          dolorem obcaecati distinctio beatae cumque fugit necessitatibus
+          reprehenderit, alias libero expedita in consectetur aut id vel a
+          dolorum unde eius nostrum. Maxime debitis, qui consequatur nostrum
+          aliquid fugit ipsa ullam itaque, omnis velit odio laboriosam amet
+          porro dolores minima provident exercitationem? Sequi, distinctio
+          incidunt vero dolorum id rem minus error repudiandae? Neque a, quis
+          possimus aspernatur cum iste distinctio dignissimos architecto
+          perferendis quod fuga soluta assumenda, quidem dicta ea. Ratione omnis
+          commodi culpa iste in distinctio necessitatibus iure enim cupiditate
+          dignissimos! Adipisci doloremque illum, accusamus quod sapiente
+          inventore quaerat vitae minima voluptatibus dolores dolore ex odio.
+          Nemo quam perspiciatis accusantium mollitia, tempora eos! Reiciendis
+          ut deleniti, magni quod nam quaerat? Illo. Incidunt, necessitatibus
+          soluta, quisquam totam laborum, accusantium optio eligendi hic sit
+          quos distinctio similique. Velit esse iure ipsa dolorum et ratione
+          commodi laborum suscipit fugiat ex facere ab, recusandae quasi.
+        </p>
+      </div>
+      <div class="contact">
+        <section class="con-info">
+          <h3>Cleaver with the Weather</h3>
+          <p>575 W 2nd N,</p>
+          <p>Preston, ID 83263</p>
+          <p>208-654-6956</p>
+          <p>www.seidahoinfo.com</p>
+          <a
+            href="https://www.facebook.com/"
+            class="fa fa-facebook"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.pinterest.com/"
+            class="fa fa-pinterest"
+            target="_blank"
+          ></a>
+          <a
+            href="https://twitter.com/?lang=en"
+            class="fa fa-twitter"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.instagram.com/"
+            class="fa fa-instagram"
+            target="_blank"
+          ></a>
+        </section>
+        <img
+          class="location"
+          src="images/prest-loc.png"
+          alt="Map loation for Preston, ID"
+        />
+      </div>
     </main>
     <footer>
-        &copy; Cleaver with the Weather | Attributions | Chase Patterson
-        <p><span class="date"></span></p>
+      &copy; Cleaver with the Weather | Attributions | Chase Patterson
+      <p><span class="date"></span></p>
     </footer>
     <script src="js/modded.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfont.js"></script>
-</body>
-
+  </body>
 </html>
