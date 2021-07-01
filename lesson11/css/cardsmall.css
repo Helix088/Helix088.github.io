@@ -101,6 +101,10 @@ nav {
     text-decoration: none;
 }
 
+.navagation a:hover {
+    background-color: #414141;
+}
+
 .navagation .current {
     background-color: #414141;
 }
@@ -146,7 +150,7 @@ div {
 }
 
 .contact {
-    background-color: #3592fc;
+    background-color: #1580fa;
     padding: 1rem;
     line-height: 10px;
     color: #ffffff;
@@ -212,20 +216,16 @@ div {
     width: 0%;
 }
 
-a:hover {
-    background-color: #414141;
-    padding: 1rem;
-}
-
 a:active {
     color: #ffff00;
 }
 
 footer {
     text-align: center;
-    background-color: #1580fa;
+    background-color: #3d96fc;
     padding: 0.1rem;
     font-size: 0.9rem;
+    padding-top: 1.5rem;
 }
 
 .wire {
@@ -234,6 +234,7 @@ footer {
 }
 
 .wire:hover {
+    background-color: #414141;
     padding: 0;
 }
 

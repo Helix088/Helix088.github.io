@@ -3,6 +3,7 @@ body {
     font-family: "Oswald", sans-serif;
     background-color: #cfedf7;
     margin: 0 auto;
+    letter-spacing: 0.1rem;
 }
 
 aside {
@@ -100,6 +101,10 @@ nav {
     text-decoration: none;
 }
 
+.navagation a:hover {
+    background-color: #414141;
+}
+
 .navagation .current {
     background-color: #414141;
 }
@@ -162,13 +167,13 @@ div {
 }
 
 .contact {
-    background-color: #3592fc;
+    background-color: #1580fa;
     padding: 1rem;
     line-height: 10px;
     color: #ffffff;
 }
 
-.storm-trooper {
+.event {
     width: 100%;
     height: auto;
     box-shadow: 0 0 2rem #777;
@@ -220,20 +225,16 @@ div {
     width: 0%;
 }
 
-a:hover {
-    background-color: #414141;
-    padding: 1rem;
-}
-
 a:active {
     color: #ffff00;
 }
 
 footer {
     text-align: center;
-    background-color: #1580fa;
+    background-color: #3d96fc;
     padding: 0.1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding-top: 1.5rem;
 }
 
 .date {

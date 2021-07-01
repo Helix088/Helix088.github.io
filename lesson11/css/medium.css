@@ -84,9 +84,9 @@
         align-content: center;
         justify-content: center;
         padding: 1rem;
-        gap: 15rem;
+        gap: 5rem;
     }
-    .storm-trooper {
+    .event {
         width: 30%;
         height: auto;
         float: right;
@@ -107,6 +107,5 @@
         border-bottom-left-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
         font-size: 1.2rem;
-        padding-top: 1rem;
     }
 }
