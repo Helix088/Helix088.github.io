@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Photo Gallery</title>
+    <meta name="description" content="Photos of different weather occuring in southeast Idaho." />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="css/gsmall.css" />
+    <link rel="stylesheet" href="css/gmedium.css" />
+    <link rel="stylesheet" href="css/glarge.css" />
+    <script defer src="js/banner.js"></script>
+</head>
+
+<body>
+    <aside class="banner">
+        Saturday = Preston Pancakes in the Park! 9:00a.m. Saturday at the city park pavilion.
+    </aside>
+    <header>
+        <img class="logo" src="images/weather_logo.png" alt="Logo of Weather Website" />
+        <section class="headings">
+            <h1>Cleaver with the Weather</h1>
+            <p class="motto">
+                "The weather may be a mystery, but we're clever enough to figure it out."
+            </p>
+        </section>
+    </header>
+    <nav>
+        <ul class="navagation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a class="current" href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <h2>Weather Gallery</h2>
+    <main>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/rain.jpg" alt="Rain on plant" />
+            <figcaption>Rain in Preston forest</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/cloudy.jpg" alt="Cloudy in a rural area" />
+            <figcaption>Clouds over Soda Springs</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/foggy.jpg" alt="Fog around San Francisco Bridge" />
+            <figcaption>Fog in Fosh Haven</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/hail.jpg" alt="Hail in forest" />
+            <figcaption>Hail in Preston forest</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/blizzard.png" alt="Blizzard view from space" />
+            <figcaption>Blizzard over southeast Idaho</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/lightining.jpg" alt="Lightining over city" />
+            <figcaption>Lightining over Soda Springs</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/snowy.jpg" alt="Snow falling in small town" />
+            <figcaption>Snow falling in Preston</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/sunny.jpg" alt="Far away view of San Francisco Bridge on sunny day" />
+            <figcaption>Sunny in Fish Haven</figcaption>
+        </figure>
+        <figure class="weather-pic">
+            <img src="images/place-holder.png" data-src="images/tornado.jpg" alt="Tornando forming in rural area" />
+            <figcaption>Tornado in Preston</figcaption>
+        </figure>
+    </main>
+    <footer>
+        &copy; Cleaver with the Weather | Attributions | Chase Patterson
+        <p><span class="date"></span></p>
+        <p>Number of days since your last visit: <span class="visit"></span></p>
+    </footer>
+    <script src="js/modded.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script src="js/storage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+@media only screen and (min-width: 80rem) {
+    main {
+        max-width: 64rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .motto {
+        font-size: 1.5rem;
+    }
+    main h2 {
+        font-size: 3.5rem;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    form.label.sbs {
+        padding: 0.4rem 0;
+    }
+    .location {
+        width: 40%;
+    }
+    footer {
+        font-size: 1.5rem;
+        max-width: 1300px;
+    }
+}

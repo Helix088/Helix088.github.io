@@ -1,0 +1,59 @@
+@media only screen and (min-width: 32.5rem) {
+    aside {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+    nav,
+    table {
+        max-width: 100%;
+    }
+    header {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        padding: 1.5rem;
+    }
+    .logo {
+        width: 150px;
+    }
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: 1.1rem;
+        margin-left: 17px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    main h2 {
+        font-size: 2.2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .navagation {
+        display: flex;
+    }
+    .navagation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navagation a {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .navagation li:first-child {
+        display: none;
+    }
+    form legend {
+        font-size: 1.2rem;
+    }
+    form label.top,
+    form div {
+        font-size: 1rem;
+    }
+    footer {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,44 @@
+@media only screen and (min-width: 80rem) {
+    main {
+        width: 1200px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .motto {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    .summary {
+        width: 250px;
+        height: auto;
+    }
+    .cards section {
+        display: block;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    }
+    .cards section:nth-child(even) {
+        grid-column: 2 / 3;
+    }
+    .contact {
+        gap: 15rem;
+    }
+    .location {
+        width: 40%;
+    }
+    footer {
+        font-size: 1.5rem;
+        max-width: 1300px;
+    }
+}
