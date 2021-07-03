@@ -34,7 +34,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
-    background-color: #3d96fc;
+    background-color: #0077ff;
 }
 
 header,
@@ -208,7 +208,7 @@ a:active {
 
 footer {
     text-align: center;
-    background-color: #3d96fc;
+    background-color: #0077ff;
     padding: 0.1rem;
     font-size: 0.9rem;
     padding-top: 1.5rem;

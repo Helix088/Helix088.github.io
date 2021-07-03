@@ -13,7 +13,7 @@
         padding: 1.5rem;
     }
     .logo {
-        width: 150px;
+        width: 130px;
     }
     .motto {
         letter-spacing: 1.5pt;
@@ -51,7 +51,7 @@
     }
     .summary {
         position: absolute;
-        width: 220px;
+        width: 230px;
         height: auto;
         top: 4rem;
         left: 4rem;
@@ -80,7 +80,7 @@
         margin-bottom: 2rem;
     }
     .contact {
-        display: inline-flex;
+        display: flex;
         align-content: center;
         justify-content: center;
         padding: 1rem;

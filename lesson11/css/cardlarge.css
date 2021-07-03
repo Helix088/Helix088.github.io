@@ -31,9 +31,6 @@
     .cards section:nth-child(even) {
         grid-column: 2 / 3;
     }
-    .contact {
-        gap: 15rem;
-    }
     .location {
         width: 40%;
     }
