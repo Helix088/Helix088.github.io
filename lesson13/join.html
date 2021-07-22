@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Plan</title>
+    <meta name="description" content="Site Plan for Chamber of Commerce Website." />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/lesson13/css/small.css" />
+    <link rel="stylesheet" href="/lesson13/css/medium.css" />
+    <link rel="stylesheet" href="/lesson13/css/large.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</head>
+
+<body class="content1">
+    <header>
+        <a href="/lesson12/index.html"><img class="logo" src="images/chamber_icon.png" alt="Logo for Chamber of Commerce Website" /></a>
+        <section class="headings">
+            <h1>Pride Chamber of Commerce</h1>
+            <p class="motto">"Here to help Pride grow into a great city."</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="navagation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson13/index.html">Home</a></li>
+            <li><a href="/lesson13/city.html">City</a></li>
+            <li><a class="current" href="#">Join</a></li>
+            <li><a href="/lesson13/directory.html">Directory</a></li>
+            <li><a href="/lesson13/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Membership Application</h2>
+        <form method="get" action="join-thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name*
+            <input type="text" name="fname" required pattern="[A-Za-z\s]{5,}"
+          /></label>
+                <label class="top">Last Name*
+            <input type="text" name="lname" required pattern="[A-Za-z\s]{2,}"
+          /></label>
+                <label class="top">Title <input type="text" name="title" /></label>
+                <label class="top">Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"
+          /></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="bname" required
+          /></label>
+                <label class="top">Business Address <input type="text" name="badd"
+          /></label>
+                <label class="top">Business Website
+            <input type="text" name="bweb" placeholder="www.business.com"
+          /></label>
+                <label class="top">Business Description</label>
+                <textarea name="busdes" id="infocom" cols="37" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Selection</legend>
+                <label class="top">Membership Type*
+            <select name="region" required>
+              <option value="">Select Membership &#9662;</option>
+              <option value="nonprof">Non-profit ($100)</option>
+              <option value="bronze">Bronze ($200)</option>
+              <option value="silver">Silver ($400)</option>
+              <option value="gold">Gold ($1000)</option>
+            </select>
+          </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Details</legend>
+                <div class="benefits">
+                    <table>
+                        <caption>
+                            Benefits
+                        </caption>
+                        <thead>
+                            <tr>
+                                <td class="setter" colspan="4"></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th id="chead">Gold ($1000)</th>
+                                <th id="chead">Silver ($400)</th>
+                                <th id="chead">Bronze ($200)</th>
+                                <th id="chead">Non-profit ($100)</th>
+                            </tr>
+                            <tr>
+                                <td>Monthly Newsletter</td>
+                                <td>Monthly Newsletter</td>
+                                <td>Monthly Newsletter</td>
+                                <td>Monthly Newsletter</td>
+                            </tr>
+                            <tr>
+                                <td>Bi-Weekly Lunchins</td>
+                                <td>Bi-Weekly Lunchins (plus 1)</td>
+                                <td>Bi-Weekly Lunchins (plus 2)</td>
+                                <td>Bi-Weekly Lunchins (plus 4)</td>
+                            </tr>
+                            <tr>
+                                <td>Monthly Chamber Meeting</td>
+                                <td>Monthly Chamber Meeting</td>
+                                <td>Monthly Chamber Meeting</td>
+                                <td>Monthly Chamber Meeting</td>
+                            </tr>
+                            <tr>
+                                <td>Access to directory listings</td>
+                                <td>Access to directory listings</td>
+                                <td>Access to directory listings</td>
+                                <td>Access to directory listings</td>
+                            </tr>
+                            <tr>
+                                <td>Access to Chamber's social media site marketing</td>
+                                <td>Access to Chamber's social media site marketing</td>
+                                <td>Access to Chamber's social media site marketing</td>
+                                <td>Access to Chamber's social media site marketing</td>
+                            </tr>
+                            <tr>
+                                <td id="none"></td>
+                                <td>Discounted Advertising within city limits</td>
+                                <td>Discounted Advertising within city limits</td>
+                                <td>Discounted Advertising within city limits</td>
+                            </tr>
+                            <tr>
+                                <td id="none"></td>
+                                <td>Discounts at multiple businesses within the community</td>
+                                <td>Discounts at multiple businesses within the community</td>
+                                <td>Discounts at multiple businesses within the community</td>
+                            </tr>
+                            <tr>
+                                <td id="none"></td>
+                                <td id="none"></td>
+                                <td>Quarterly Business Trainings</td>
+                                <td>Quarterly Business Trainings</td>
+                            </tr>
+                            <tr>
+                                <td id="none"></td>
+                                <td id="none"></td>
+                                <td id="none"></td>
+                                <td>Annual business convention in Walt Disney World</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="fsetter" colspan="4">
+                                    Compiled 7.21.2021 by Chase P.
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </fieldset>
+            <input type="submit" value="Become A Member" class="submitBtn" />
+        </form>
+    </main>
+    <footer>
+        &copy; <span id="theyear"></span> | Chase Patterson | Louisiana |
+        <a href="https://openweathermap.org/api/one-call-api" target="_blank">API One Call</a
+      >
+      <p>Last Modified: <span id="lastmod"></span></p>
+      <section class="social-media">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="/lesson13/images/fbicon.png" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="/lesson13/images/licon.png" alt="LinkedIn Icon" /></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="/lesson13/images/ticon.png" alt="Twitter Icon" /></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="/lesson13/images/iicon.png" alt="Instagram Icon" /></a>
+        </section>
+    </footer>
+    <script src="js/lastmodd.js"></script>
+</body>
+
+</html>

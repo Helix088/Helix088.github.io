@@ -1,0 +1,160 @@
+@media only screen and (min-width: 40rem) {
+    header,
+    nav,
+    main,
+    footer,
+    table {
+        max-width: 1200px;
+    }
+    header {
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+    }
+    .logo {
+        width: 130px;
+    }
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: 1.1rem;
+        margin-left: 17px;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main h1 {
+        font-size: 3rem;
+    }
+    main h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    .navagation {
+        display: flex;
+    }
+    .navagation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navagation a {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .navagation li:first-child {
+        display: none;
+    }
+    .summary {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        line-height: 1rem;
+        top: 3rem;
+        right: 3rem;
+    }
+    .three {
+        color: #000;
+        display: block;
+    }
+    .threes-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+    .threes {
+        text-align: center;
+        flex: 1 1 1px;
+        background-color: #449c70;
+        border: 1px solid #000;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .draw-in {
+        display: flex;
+        gap: 2rem;
+    }
+    .bus-show {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    .con-info {
+        display: flex;
+        gap: 3rem;
+    }
+    .events {
+        margin: 0;
+    }
+    footer {
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+    }
+    /********Contact Page**********/
+    .info h3 {
+        text-align: center;
+    }
+    .directors {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #449c70;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        border-radius: 2%;
+    }
+    .director img:hover {
+        box-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.6);
+    }
+    form legend {
+        font-size: 1.2rem;
+    }
+    form label.top,
+    form div {
+        font-size: 1rem;
+    }
+    .con-map {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        gap: 2rem;
+    }
+    .contact {
+        font-size: 1rem;
+    }
+    .map {
+        margin: 0;
+    }
+    /*********City Page***********/
+    .city {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .ff {
+        margin: 0;
+    }
+    /*********Join Page***********/
+    .benefits {
+        font-size: 1rem;
+    }
+    td {
+        padding: 0.5rem;
+    }
+    /*************Directory************/
+    .cards section {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+    .cards section:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

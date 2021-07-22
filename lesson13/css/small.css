@@ -1,0 +1,557 @@
+body {
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #d8d7c9;
+    margin: 0 auto;
+    letter-spacing: 0.1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #4e5166;
+}
+
+header,
+nav a,
+footer {
+    color: #ffffff;
+}
+
+header,
+main,
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+picture {
+    display: inline;
+    text-align: center;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+
+
+/**************Slide Show***************/
+
+* {
+    box-sizing: border-box;
+}
+
+.mySlides {
+    display: none;
+}
+
+.herodiv img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/**************Slide Show***************/
+
+.logo {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin: 20px;
+    font-size: 0.7rem;
+}
+
+nav {
+    margin: 0 auto;
+    margin-top: -16px;
+    max-width: 100%;
+    background-color: #7c90a0;
+}
+
+.navagation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navagation li:first-child {
+    display: block;
+}
+
+.navagation li {
+    display: none;
+}
+
+.navagation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navagation a:hover {
+    background-color: #6e5d48;
+}
+
+.navagation .current {
+    background-color: #6e5d48;
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    padding: 2rem;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a:visited {
+    color: #449c70;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img[data-src] {
+    width: 300px;
+    height: 400px;
+    filter: blur(0.2em);
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.summary {
+    line-height: 0.2rem;
+    background: radial-gradient(#449c70, #29b971);
+    border: 1px solid #cfedf7;
+    padding: 0.5rem;
+    box-shadow: 0 0 2rem rgb(0, 0, 0);
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.three {
+    display: none;
+}
+
+.join {
+    background-color: #4e5166;
+    padding: 0.5rem;
+    border: 5px outset #ffffff;
+    color: #ffffff;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.annotation {
+    font-size: 0.5rem;
+}
+
+.description {
+    background-color: #449c70;
+    padding: 0.5rem;
+    border: 5px outset rgb(53, 53, 53);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.bus-show section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #7c90a0;
+    text-align: center;
+    max-width: 600px;
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+.bus-show section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.events {
+    background-color: #449c70;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1rem;
+    border: 5px outset rgb(53, 53, 53);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.contact {
+    background-color: #7c90a0;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1rem;
+    color: #ffffff;
+    border: 5px outset #ffffff;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+a:active {
+    color: #449c70;
+}
+
+.social-media a:hover {
+    background-color: #4e5166;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #4e5166;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #449c70;
+}
+
+footer a:hover {
+    padding: 0.1rem;
+    background-color: #6e5d48;
+}
+
+#lastmod {
+    color: #449c70;
+}
+
+
+/**********Contact Page************/
+
+.directors {
+    text-align: center;
+}
+
+.director img {
+    width: 200px;
+    height: auto;
+    border: 5px outset rgb(53, 53, 53);
+}
+
+.map {
+    margin-top: 2rem;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map iframe {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.contact {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+
+/************Form**************/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 0.54rem;
+    font-size: 0.9rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 0.8rem;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form label.sbs {
+    display: block;
+    padding: 0.75rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #449c70;
+    color: black;
+    border-radius: 1rem;
+    padding: 00.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.thanks {
+    text-align: center;
+    padding: 6rem;
+    line-height: 2rem;
+}
+
+.benefits {
+    border-collapse: collapse;
+    background-color: rgb(200, 200, 200);
+    border-radius: 1%;
+    width: 100%;
+    font-size: 0.5rem;
+    text-align: center;
+    color: black;
+}
+
+table,
+tbody,
+thead,
+th,
+tr,
+td {
+    display: flexbox;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.setter {
+    background-color: rgb(200, 200, 200);
+}
+
+td {
+    background-color: #449c70;
+}
+
+#none {
+    display: none;
+}
+
+.fsetter {
+    background-color: rgb(200, 200, 200);
+}
+
+
+/**************City Page****************/
+
+.demo {
+    background-color: #7c90a0;
+    padding: 0.5rem;
+    line-height: 1rem;
+    color: #ffffff;
+    border: 5px outset #ffffff;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.hist {
+    background-color: #449c70;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    border: 5px outset rgb(53, 53, 53);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.ff {
+    background-color: #4e5166;
+    padding: 0.5rem;
+    border: 5px outset #ffffff;
+    color: #ffffff;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+
+/*****************Directory Page******************/
+
+.cards section {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #449c70;
+    border: 5px outset #ffffff;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    color: white;
+}

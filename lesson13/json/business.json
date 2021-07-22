@@ -1,0 +1,52 @@
+{
+    "businesses": [{
+            "name": "Pride One Stop",
+            "founded": "2001",
+            "owner": "Gerald St. Pierre",
+            "phone": "(225) 654-9707",
+            "description": "Pride One Stop is located in Zachary, Louisiana. This organization primarily operates in the Convenience Stores business / industry within the Food Stores sector."
+        },
+        {
+            "name": "Cajun Hose & Fittings, L.L.C",
+            "founded": "2013",
+            "owner": "James Garrene",
+            "phone": "(225) 975-1265",
+            "description": "This organization primarily operates in the Fluid Power Valves and Hose Fittings business / industry within the Fabricated Metal Products sector."
+        },
+        {
+            "name": "Precision Paws LLC",
+            "founded": "2017",
+            "owner": "Coty Rizan",
+            "phone": "(352) 208-0953",
+            "description": "This organization primarily operates in the Animal Specialty Services business / industry within the Agricultural Services sector."
+        },
+        {
+            "name": "Jose's Kitchen",
+            "founded": "2017",
+            "owner": "Jose Luis Carranza",
+            "phone": "(786) 306-5642",
+            "description": "This organization primarily operates in the Eating Places business / industry within the Eating and Drinking Places sector."
+        },
+        {
+            "name": "Louisiana Blazers Elite Inc",
+            "founded": "2018",
+            "owner": "Todd Whittington",
+            "phone": "(225) 362-3763",
+            "description": "This organization primarily operates in the Membership Sports and Recreation Clubs business / industry within the Amusement and Recreation Services sector."
+        },
+        {
+            "name": "Vizcom Studio LLC",
+            "founded": "2013",
+            "owner": "Steven Lumpkin",
+            "phone": "(225) 757-6210",
+            "description": "This organization primarily operates in the Miscellaneous Personal Service business / industry within the Personal Services sector."
+        },
+        {
+            "name": "Southern Magnolia Sweets LLC",
+            "founded": "2016",
+            "owner": "Jackie Jenkins",
+            "phone": "(225) 362-4420",
+            "description": "This organization primarily operates in the Candy, Nut, and Confectionery Stores business / industry within the Food Stores sector."
+        }
+    ]
+}

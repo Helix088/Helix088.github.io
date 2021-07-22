@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Plan</title>
+    <meta name="description" content="Site Plan for Chamber of Commerce Website." />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/lesson13/css/small.css" />
+    <link rel="stylesheet" href="/lesson13/css/medium.css" />
+    <link rel="stylesheet" href="/lesson13/css/large.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script defer src="js/slideshow.js"></script>
+    <script defer src="js/forecast.js"></script>
+</head>
+
+<body class="content1">
+    <header>
+        <a href="/lesson12/index.html"><img class="logo" src="images/chamber_icon.png" alt="Logo for Chamber of Commerce Website" /></a>
+        <section class="headings">
+            <h1>Pride Chamber of Commerce</h1>
+            <p class="motto">"Here to help Pride grow into a great city."</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="navagation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a class="current" href="#">Home</a></li>
+            <li><a href="/lesson13/city.html">City</a></li>
+            <li><a href="/lesson13/join.html">Join</a></li>
+            <li><a href="/lesson13/directory.html">Directory</a></li>
+            <li><a href="/lesson13/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Home Page</h2>
+        <div class="herodiv">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <picture>
+                        <source srcset="images/pridecoc1000.jpg" media="(min-width: 1000px)" />
+                        <source srcset="images/pridecoc800.jpg" media="(min-width: 800px)" />
+                        <source srcset="images/pridecoc600.jpg" media="(min-width: 600px)" />
+                        <source srcset="images/pridecoc400.jpg" media="(min-width: 400px)" />
+                        <img src="images/pridecoc300.jpg" alt="Pictures of Pride, LA" />
+                    </picture>
+                </div>
+                <div class="mySlides fade">
+                    <picture>
+                        <source srcset="images/prideb1000.jpg" media="(min-width: 1000px)" />
+                        <source srcset="images/prideb800.jpg" media="(min-width: 800px)" />
+                        <source srcset="images/prideb600.jpg" media="(min-width: 600px)" />
+                        <source srcset="images/prideb400.jpg" media="(min-width: 400px)" />
+                        <img src="images/prideb300.jpg" alt="Pictures of Pride, LA" />
+                    </picture>
+                </div>
+
+                <div class="mySlides fade">
+                    <picture>
+                        <source srcset="images/pridela1000.jpg" media="(min-width: 1000px)" />
+                        <source srcset="images/pridela800.jpg" media="(min-width: 800px)" />
+                        <source srcset="images/pridela600.jpg" media="(min-width: 600px)" />
+                        <source srcset="images/pridela400.jpg" media="(min-width: 400px)" />
+                        <img src="images/pridela300.jpg" alt="Pictures of Pride, LA" />
+                    </picture>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <div class="details">
+                    <p class="label">Currently: <span id="currently"></span></p>
+                    <p class="label">
+                        Temperature: <span id="temperature"></span>&deg; F
+                    </p>
+                    <p class="label">Humidity: <span id="humidity"></span>%</p>
+                </div>
+            </section>
+        </div>
+        <section class="three">
+            <h3>3 Day Forecast</h3>
+            <div class="threes-box">
+                <div class="threes">
+                    <p>
+                        <span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; F
+                    </p>
+                    <p>
+                        <span id="imagesrc1"></span
+              ><img src="http//:0" alt="" id="icon1" />
+            </p>
+          </div>
+          <div class="threes">
+            <p>
+              <span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; F
+                    </p>
+                    <p>
+                        <span id="imagesrc2"></span
+              ><img src="http//:0" alt="" id="icon2" />
+            </p>
+          </div>
+          <div class="threes">
+            <p>
+              <span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; F
+                    </p>
+                    <p>
+                        <span id="imagesrc3"></span
+              ><img src="http//:0" alt="" id="icon3" />
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="draw-in">
+        <section class="join">
+          <h3><a href="/lesson13/join.html">Become a Member Today!</a></h3>
+          <p>
+            Becoming a member of the Chamber helps improve the Pride, LA
+            community and local businesses grow. As a one time offer joining
+            will give you a 10% discount* on your membership for the first year.
+          </p>
+          <p class="annotation">
+            *Must be at least be member for one full year in order to qualify.
+            Discount only applies to new members.
+          </p>
+        </section>
+        <section class="description">
+          <h3>Purpose:</h3>
+          <p>
+            The purpose of this Chamber is to help build Pride into the city
+            that we know it can become. To do this we will work with small and
+            large businesses. We want it to be a thriving city that will help
+            boost the economy of itself and the state.
+          </p>
+          <h3>Goals:</h3>
+          <ol>
+            <li>Establish 1 business in Pride every quarter.</li>
+            <li>Hold at least one charitable event every 2 months.</li>
+            <li>Increase employement rates in Pride by 5% every year.</li>
+          </ol>
+        </section>
+      </div>
+      <div class="bus-show">
+        <section class="business">
+          <h3>Dollar General</h3>
+          <img src="/lesson13/images/pridedg.png" alt="Dollar General" />
+          <p>Owners: Kohlberg Kravis & Roberts</p>
+          <p>Established: 1939</p>
+          <p>
+            Dollar General is a leading discount retailer with more than 17,000
+            stores in 46 states. The company remains true to the humble ethic of
+            hard work and friendly customer service embodied by the founding
+            family.
+          </p>
+        </section>
+        <section class="business">
+          <h3>Pride One Stop</h3>
+          <img src="/lesson13/images/prideos.png" alt="Indian Mound" />
+          <p>Owner: Gerald St Pierre</p>
+          <p>Established: 2001</p>
+          <p>
+            Pride One Stop is a small locally owned convience store. They sell a
+            variety of products such as fried chicken, soda, candy, snacks, and
+            etc.
+          </p>
+        </section>
+        <section class="business">
+          <h3>Lafleur's Plumbing</h3>
+          <img src="/lesson13/images/pridelp.png" alt="Pride One Stop" />
+          <p>Owner: Wayne Lafleur</p>
+          <p>Established: 1998</p>
+          <p>
+            A locally owned plumbing company in the Pride, LA area. They do a
+            wide variety of jobs such as pipes, water heaters, and etc.
+          </p>
+        </section>
+      </div>
+      <div class="con-info">
+        <section class="events">
+          <h3>Events:</h3>
+          <h4>City Carnival</h4>
+          <p>Bring your family for fun, dancing, games, and more!</p>
+          <h4>Northeast Vikings Football</h4>
+          <p>Come Support the Vikings at their big start of the season game!</p>
+          <h4>Chamber of Commerce Meeting</h4>
+          <p>
+            This monthly meeting is open to all who want to help build Pride in
+            a great city.
+          </p>
+        </section>
+        <section class="contact">
+          <h3>Contact Us:</h3>
+          <h4>Pride Chamber of Commerce</h4>
+          <p>16524 Port Hudson-Pride Rd,</p>
+          <p>Pride, LA 70770</p>
+          <p>225-654-6956</p>
+          <p>www.pridecoc.com</p>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="/lesson13/images/fbicon.png" alt="Facebook Icon"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="/lesson13/images/licon.png" alt="LinkedIn Icon"
+          /></a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><img src="/lesson13/images/ticon.png" alt="Twitter Icon"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="/lesson13/images/iicon.png" alt="Instagram Icon"
+          /></a>
+        </section>
+      </div>
+    </main>
+    <footer>
+      &copy; <span id="theyear"></span> | Chase Patterson | Pride, LA |
+                        <a href="https://openweathermap.org/api/one-call-api" target="_blank">API One Call</a
+      >
+      |
+      <a
+        href="https://www.w3schools.com/howto/howto_js_slideshow.asp"
+        target="_blank"
+        >Slideshow Turtorial</a
+      >
+      <p>Last Modified: <span id="lastmod"></span></p>
+    </footer>
+    <script src="js/lastmodd.js"></script>
+    <script defer src="js/lazyload.js"></script>
+  </body>
+</html>
