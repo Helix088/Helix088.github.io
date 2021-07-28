@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Plan</title>
-    <meta
-      name="description"
-      content="Site Plan for Chamber of Commerce Website."
-    />
+    <title>Directory</title>
+    <meta name="description" content="Directory of businesses." />
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="/lesson13/css/small.css" />
     <link rel="stylesheet" href="/lesson13/css/medium.css" />
@@ -23,63 +18,52 @@
     <script src="js/webfont.js"></script>
     <script src="js/dirp.js"></script>
     <script src="js/list-grid.js"></script>
-  </head>
+</head>
 
-  <body class="content1">
+<body class="content1">
     <header>
-      <a href="/lesson12/index.html"
-        ><img
-          class="logo"
-          src="images/chamber_icon.png"
-          alt="Logo for Chamber of Commerce Website"
-      /></a>
-      <section class="headings">
-        <h1>Pride Chamber of Commerce</h1>
-        <p class="motto">"Here to help Pride grow into a great city."</p>
-      </section>
+        <a href="/lesson12/index.html"><img class="logo" src="images/chamber_icon.png" alt="Logo for Chamber of Commerce Website" /></a>
+        <section class="headings">
+            <h1>Pride Chamber of Commerce</h1>
+            <p class="motto">"Here to help Pride grow into a great city."</p>
+        </section>
     </header>
     <nav>
-      <ul class="navagation">
-        <li><a class="ham" href="#">&#9776; Menu</a></li>
-        <li><a href="/lesson13/index.html">Home</a></li>
-        <li><a href="/lesson13/city.html">City</a></li>
-        <li><a href="/lesson13/join.html">Join</a></li>
-        <li><a class="current" href="#">Directory</a></li>
-        <li><a href="/lesson13/contact.html">Contact</a></li>
-      </ul>
+        <ul class="navagation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson13/index.html">Home</a></li>
+            <li><a href="/lesson13/city.html">City</a></li>
+            <li><a href="/lesson13/join.html">Join</a></li>
+            <li><a class="current" href="#">Directory</a></li>
+            <li><a href="/lesson13/contact.html">Contact</a></li>
+        </ul>
     </nav>
     <main>
-      <div class="container">
-        <div class="buttons">
-          <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
-          <button onclick="gridView()">
+        <div class="container">
+            <div class="buttons">
+                <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
+                <button onclick="gridView()">
             <i class="fa fa-th-large"></i> Grid
           </button>
+            </div>
+            <div class="cards"></div>
         </div>
-        <div class="cards"></div>
-      </div>
     </main>
     <footer>
-      &copy; <span id="theyear"></span> | Chase Patterson | Louisiana |
-      <a href="https://openweathermap.org/api/one-call-api" target="_blank"
-        >API One Call</a
+        &copy; <span id="theyear"></span> | Chase Patterson | Louisiana |
+        <a href="https://openweathermap.org/api/one-call-api" target="_blank">API One Call</a
       >
       <p>Last Modified: <span id="lastmod"></span></p>
       <section class="social-media">
         <a href="https://www.facebook.com/" target="_blank"
           ><img src="/lesson13/images/fbicon.png" alt="Facebook Icon"
         /></a>
-        <a href="https://www.linkedin.com/" target="_blank"
-          ><img src="/lesson13/images/licon.png" alt="LinkedIn Icon"
-        /></a>
-        <a href="https://www.twitter.com/" target="_blank"
-          ><img src="/lesson13/images/ticon.png" alt="Twitter Icon"
-        /></a>
-        <a href="https://www.instagram.com/" target="_blank"
-          ><img src="/lesson13/images/iicon.png" alt="Instagram Icon"
-        /></a>
-      </section>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="/lesson13/images/licon.png" alt="LinkedIn Icon" /></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="/lesson13/images/ticon.png" alt="Twitter Icon" /></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="/lesson13/images/iicon.png" alt="Instagram Icon" /></a>
+        </section>
     </footer>
     <script src="js/lastmodd.js"></script>
-  </body>
+</body>
+
 </html>
