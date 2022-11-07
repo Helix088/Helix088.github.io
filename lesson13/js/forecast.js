@@ -1,4 +1,4 @@
-const APPID = "d6715228d1a8c1a7461d432f816f3451";
+const APPID = "d6715228d1a8c1a7461d432f816f3451"
 const apiURL = `https://api.openweathermap.org/data/2.5/forecast?lat=30.6938&lon=-90.9782&appid=${APPID}&units=imperial`;
 
 console.log(apiURL);

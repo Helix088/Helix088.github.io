@@ -1,5 +1,5 @@
 const cityID = "5585010";
-const appid = "f294865734f176c7193b898d22cbb23d";
+const appid = "d6715228d1a8c1a7461d432f816f3451";
 const apiURLL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&appid=${appid}&units=imperial`;
 
 fetch(apiURLL)
