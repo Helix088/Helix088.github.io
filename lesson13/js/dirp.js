@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function(jsonObject) {
         const businesses = jsonObject["businesses"];
         businesses.forEach((business) => {
-            let card = document.createElement("section");
+            let card = document.createElement("div");
             let h2 = document.createElement("h2");
             let founded = document.createElement("p");
             let owner = document.createElement("p");
@@ -26,6 +26,6 @@ fetch(requestURL)
             card.appendChild(phone);
             card.appendChild(description);
 
-            document.querySelector("div.cards").appendChild(card);
+            document.querySelector(".cards").appendChild(card);
         });
     });

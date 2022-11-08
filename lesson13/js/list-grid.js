@@ -1,14 +1,11 @@
-var elements = document.getElementsByClassName(".cards");
-var i;
+const list = document.querySelector(".list");
+const grid = document.querySelector(".grid");
+const cards = document.querySelector(".cards");
 
-function listView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "100%";
-    }
-}
+list.addEventListener("click", () => {
+    cards.classList.add("list");
+});
 
-function gridView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "50%";
-    }
-}
+grid.addEventListener("click", () => {
+    cards.classList.remove("list");
+});
